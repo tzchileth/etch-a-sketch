@@ -7,11 +7,18 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
     display: flex;
     justify-content: center;
+    width: 300px;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 button {
@@ -23,7 +30,6 @@ button {
     cursor: pointer;
     padding: 8px 16px;
     font-weight: bold;
-
 }
 
 .square {
@@ -31,4 +37,9 @@ button {
     width: 16px;
     background: rgb(34, 148, 214);
     border: 1px solid #a52a2a;
+    cursor: pointer;
+}
+
+.square:hover {
+    background: black;
 }
