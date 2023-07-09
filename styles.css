@@ -4,9 +4,7 @@
 
 html,
 body {
-    margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,21 +13,21 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    width: 300px;
     align-content: center;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 button {
     background: #3882F6;
-    border: 1px solid #088030;
+    border: 1px solid rgb(8, 128, 48);
     color: white;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
     padding: 8px 16px;
     font-weight: bold;
+    margin: 8px;
 }
 
 .square {
@@ -38,8 +36,4 @@ button {
     background: rgb(34, 148, 214);
     border: 1px solid #a52a2a;
     cursor: pointer;
-}
-
-.square:hover {
-    background: black;
 }
